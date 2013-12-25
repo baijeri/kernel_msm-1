@@ -59,7 +59,7 @@ if [[ $1 =~ $re ]] ; then
 	make clean
 
 	#make -j$1
-	make -j$1 V=99 2>&1 |tee r${NEWVERSION}-build.log
+	make -j$1 V=99 2>&1 |tee ./logs/r${NEWVERSION}-build.log
 else
 	echo "Insert proper argument!"
 fi
