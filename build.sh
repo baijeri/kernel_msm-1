@@ -26,7 +26,7 @@ echo 'exporting SubArch...'
 #export CROSS_COMPILE=/home/geek/dev-disk/kernel/toolchains/gcc-linaro-4.7-2013.04/bin/arm-linux-gnueabihf-
 
 ##Linaro 4.8
-export CROSS_COMPILE=/home/geek/dev-disk/kernel/toolchains/gcc-linaro-4.8-2013.08/bin/arm-linux-gnueabihf-
+export CROSS_COMPILE=/home/geek/dev-disk/kernel/toolchains/gcc-linaro-4.8-2013.10/bin/arm-linux-gnueabihf-
 
 echo 'exporting Cross Compile'
 
